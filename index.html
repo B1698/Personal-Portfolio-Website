@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Prata&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+  <h1>Bianca Anghelescu</h1>
+    </header>
+ <nav> 
+  <ul role="presentation">
+  <li><a href="#aboutme">About Me</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#skills">Skills</a></li>
+  <li><a href="#contact">Contact</a></li>
+  </ul>
+  </nav>
+<br>
+<main>
+  <h2>About Me</h2>
+   <img class="me" src="https://scontent.fmmx2-1.fna.fbcdn.net/v/t1.6435-9/159975657_2773533776294570_967478958535358655_n.jpg?_nc_cat=105&ccb=1-6&_nc_sid=09cbfe&_nc_ohc=umN62LXjV_wAX8ipHai&_nc_ht=scontent.fmmx2-1.fna&oh=00_AT9Wl4izZROof-Mbrh7ojfeYlgwyJoC8a2ZBwmYzXt3lLg&oe=62AA6590" alt="Photo of Bianca" />
+   <p > Hey, and welcome to my first attempt of creating a personal portfolio website!  
+I started the Full Stack Engineer Career Path on Codecademy in April, and my intention is to learn as much as possible and be able to build some brilliant things.</p>
+<br>
+<p>On a personal note, I love to discover new things and develop new skills. Other than my newfound passion for programming, I am equally obsessed with rollerblading, so much so, that I go rollerblading a minimum of 400km a month.</p>
+<br>
+<h3>Projects</h3>
+<ul>
+  <li> Random Message Generator with JavaScript</li>
+  <li>Company Homepage with Flexbox</li>
+  <li> Credit Card Checker with JavaScript</li>
+  </ul>
+  <br>
+  <br>
+  <section>
+    <h3> Skills</h3>
+   <img class='js' src="https://flyclipart.com/thumb2/computer-icons-logo-brand-javascript-javaserver-pages-free-892749.png" />
+   <img class="html" src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" />
+  <img class="css" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" />
+    </section>
+<br>
+
+<div class="container">
+  <div style="text-align:left">
+    <h3>Contact</h3>
+    <p> Send an email to anghelescu.bianca18@gmail.com or leave a message here:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="sweden">Sweden</option>
+          <option value="uk">United Kingdom</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+    </main>
+    </body>
+</html>
